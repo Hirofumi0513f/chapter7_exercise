@@ -1,0 +1,29 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.main-visual{
+  width:100%;/*横幅いっぱい*/
+  height:400px;/*高さ400px*/
+  background-image:url(img/mv.jpg);
+  background-size:cover;/*縦横比を維持したまま背景領域を埋め尽くす*/
+  background-position: bottom;/*背景画像を下側に配置*/
+}
+
+.heading {
+  padding-top:20px;
+}
+
+main{
+  width:840px;
+  margin:50px auto;
+}
+
+.site-item{
+  padding-bottom:30px;
+  margin-bottom:30px;
+  border-bottom:1px solid #6c6b6b;
+}
